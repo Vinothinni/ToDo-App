@@ -1,0 +1,110 @@
+/*CSS for overall element*/
+body{
+    background-color: #C3CFB7;
+    padding: 70px 110px;
+}
+.wrapper{
+     background-color: #ffffff;
+     border-radius:20px;
+     display:flex;
+     height:800px;
+}
+
+/*CSS for left column*/
+.side-column-left{
+    background-color: #e4e4e4;
+    margin:20px;
+    border-radius: 15px;
+    padding:20px 20px 10px 10px;
+   
+}
+.side-column-left.task{
+    margin-top: 140px;
+    height:500px;
+    line-height: 1.8em;
+    padding-top: 20px;
+    
+}
+.side-column-left.task-title{
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: Sarala,sans-serif;
+
+}
+.search-input{
+    border-radius: 5px;
+    height:30px;
+    width:280px;
+}
+.list-group{
+    padding-top:0;
+    padding-left:40px;
+    list-style:none;
+}
+
+
+
+/*CSS for middle column*/
+.middle-column{
+   margin:20px;
+   flex:0.95;
+  
+}
+.pick-date{
+    margin:-20px;
+    float:right;
+    border-style: hidden;
+   
+}
+
+.input-for-todo{
+    margin-top:20px;
+    border-radius:5px;
+    height:30px;
+    width:800px;
+}
+
+.list-todo{
+    text-indent: 1 px;
+    align-items:center;
+    justify-content: center;
+
+}
+  /* css for right column*/
+.side-column-right{
+    flex-grow: 0.3;
+    background-color: #e4e4e4;
+    margin:20px;
+    border-radius: 15px;
+}
+.update-todo{
+   margin-top: 20px;;
+    
+}
+.title{
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: Sarala,sans-serif;
+}
+.desc{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Sarala,sans-serif;
+}
+.dueDate{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Sarala,sans-serif;
+}
+#listTitle{
+    margin-top:10px;
+    height:30px;
+    width:320px;
+    border-radius:10px;
+}
+#descriptionToDo{
+    margin-top:10px;
+    height:150px;
+    width:320px;
+    border-radius:10px;
+}

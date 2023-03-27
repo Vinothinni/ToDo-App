@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+   <head>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="https://kit.fontawesome.com/82b67e0c0b.js" crossorigin="anonymous"></script>
+   
+    </head>
+   <body>
+     <div class="wrapper">
+         <div class="side-column-left">
+             <div class="Title-ToDO">
+                <h2>ToDo</h2>
+             </div>
+             <div class ="search-tab">
+                <input type="search" class="search-input" id="search" placeholder="Search">
+             </div>
+             <div class="search-result">
+               
+             </div>
+             <div>
+                <div class="result-list"></div>
+             </div>
+             <div class="task">
+                <div class="task-title">Tasks</div>
+                <ul class="list-group" list-style: none>
+                 <li><a class="list-item"><i class="fa-solid fa-chevron-right">Upcoming</i></a></li> 
+                 <li> <a class="list-item"><i class="fa-solid fa-list-check">Today</i></a> </li> 
+                 <li><a class="list-item"><i class="fa-solid fa-calender-days">This Week</i></a></li> 
+                </ul>
+             </div>
+          </div>
+         <div class="middle-column">
+            <div class="title2">
+                <h2>Today</h2>
+                <div class="pick-date">
+                   <input type="date" id="input-date" name="date">
+                </div>
+                <form  id="todo-input-form">
+                  <input type="text" id="todoinput" class="input-for-todo" placeholder="Add new ToDo"/>
+                  <input type="hidden" id="task-submit" value="Add Task"/>
+                </form>
+                <div class="leftside-icon">
+                    <i></i>
+                </div>
+            </div>
+            <div id="list-todo">
+               <div class="task">
+                  <div class="content">
+                   <!--<input type="text" class="text" value="my task"/>--> 
+                  </div>
+               </div>
+              
+               <!--<ul>
+                 <div class="actions">
+                  <button class="delete">Delete</button>
+                 </div>
+                </ul>
+                <div class="no-task">
+                  <i>No ToDo list found!</i> 
+                </div>--> 
+            </div>
+         </div>
+         <div class="side-column-right">
+              <div class="update-todo"> 
+               
+               <div class="title-right">
+                  <label class="title"for="title">Title</label><br>
+                  <input type="text" id="listTitle" name="title"><br>
+               </div>
+               <div class="description">
+                  <label class="desc"for="description">Description</label><br>
+                  <textarea type="text" id="descriptionToDo" name="desc"></textarea><br>
+               </div>
+               <div class="dueDate">
+                  <label class="dueDate"for="date">Due Date</label><br>
+                  <input type="date" id="dateToDo" name="toDoDate"><br>
+               </div>
+               
+              <div class="button-update">
+                 <button type="delete">Delete</button>
+                 <button type="update">UPdate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+     <script src="index.js"></script>
+   </body>
+</html>
